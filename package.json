@@ -1,0 +1,28 @@
+{
+  "name": "phrma-mat-automation",
+  "jest": {
+    "testRegex": "./tests/.*.js$",
+    "preset": "./jest-puppeteer.config.js",
+    "globalSetup": "jest-environment-puppeteer/setup",
+    "globalTeardown": "jest-environment-puppeteer/teardown",
+    "testEnvironment": "jest-environment-puppeteer",
+    "verbose": true
+  },
+  "version": "1.0.0",
+  "description": "pharma test automation effort",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+    },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.0",
+    "jest-environment-puppeteer": "^4.3.0",
+    "jest-puppeteer": "^4.3.0",
+    "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
